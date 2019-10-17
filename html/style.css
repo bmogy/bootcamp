@@ -13,10 +13,11 @@ header{
     background-color: green;
     margin-left: 20px;
     margin-right: 20px;
-  
+
+white-space: nowrap;
 }
 .frontRow{
-  
+ 
     box-sizing: border-box;
     display: inline-block;
     padding: 0;
@@ -31,4 +32,72 @@ width:50%;
 width:50%;
 padding: 0;
 margin: 0;
+}
+.backRow nav ul li{
+    float: left;
+    list-style-type: none;
+    margin: 0 50px;
+    border: 1px solid black;
+    padding: 20px;
+    
+}
+.backRow nav ul li a{
+    text-decoration: none; 
+    font-size: 1.5rem; 
+    color:white;
+
+}
+img{
+    width:400px;
+    height:400px;
+}
+.body-block-1{
+display: inline-block;
+width:33%; 
+padding: 0 20px;
+box-sizing: border-box;
+}
+.body-block-2{
+display: inline-block;
+width:33%; 
+padding: 0 20px;
+box-sizing: border-box;
+}
+.body-block-3{
+display: inline-block;
+width:33%; 
+padding: 0 20px;
+box-sizing: border-box;
+}
+.smile{
+    background-image: url("smile.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center center;
+    color:white;
+}
+.footer-nav{
+
+    height:150px;
+    border-radius: 50%;
+    border:1px solid black;
+}
+.footer-nav ul li{
+    list-style-type: none;
+    float:right;
+    margin-right:50px;
+    padding: 20px 0;
+    
+}
+.footer-nav ul li a{
+    text-decoration: none; 
+    font-size: 1.5rem;
+}
+.clear{
+    clear: both;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
